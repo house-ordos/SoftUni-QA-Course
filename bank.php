@@ -8,6 +8,9 @@ $db = new mysqli("localhost", "root", "", "qa_user_input");
 
 if (isset($_POST['money'])) {
     $money = intval($_POST['money']);
+    if ($money < 0) {
+        die("Cannot add negative money");
+    }
     $db->query("UPDATE bank SET money = money + $money WHERE id = 1");
 }
 
