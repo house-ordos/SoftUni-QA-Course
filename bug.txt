@@ -1,1 +1,1 @@
-Some bug
+Some bug was fixed by not so lazy dev
