@@ -1,1 +1,2 @@
 Some bug were fixed by not so lazy dev
+Some test commit by some lazy QA:)
